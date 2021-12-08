@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta name="viewport" content="with=device-width",initial-scale =1.0>
+    <title>Bipul Panthi Port Folio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+    <body>
+        <section class = "header">
+            <nav>
+                <a href="home.html"><img src = "sakkigoni.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">ホーム</a></li>
+                        <li><a href="">私について</a></li>
+                        <li><a href="">プロジェクト</a></li>
+                        <li><a href="contact.html">連絡</a></li>
+                        <li><a href="">その他</a></li>
+                        <li><a href="">趣味</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <div class ="text-box">
+                <h1>Yo wassup mate</h1>
+                <p>Its me Bipul Panthi.</p>
+
+                <a href="" class="hero-btn">Visit here to know more</a>
+            </div>
+        </section>
+        <section class ="about">
+            <h1>自己紹介</h1>
+            <div class="row">
+                <div class="intro">
+                    <h3>Introduction</h3>
+                    <p> こんにちは！私は東京工業大学に勉強しているネパールからの留学生のビプル・パンチです。今機械工学を専門として勉強しています。</p>
+                    <p>Currently based on Tokyo,Japan.</p>
+                </div>
+                <div class="sidephoto">
+                    <img src="drum.jpg">
+
+                </div>
+            </div>
+
+        </section>
+        <div class="footer">
+            <div class="footercontent">
+                <div class="footer-section about"></div>
+                <div class="footer-section links"></div>
+                <div class="footer-section contact-form"></div>
+            </div>
+            <div class="footer-bottom">
+                &copy; Designed by Bipul Panthi : sakkigoni
+            </div>
+        </div>
+<!---Javascript for the toggle menu in small devices-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
