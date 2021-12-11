@@ -20,15 +20,18 @@
 <body>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">My Port<span>Folio</span></a></div>
+            <div class="logo">
+                <a href="#">My Port<span>Folio</span></a>
+            </div>
             <div class="menu">
                 <ul>
                     <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT ME</a></li>
-                    <li><a href="">SKILLS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="">MISCELLANEOUS</a></li>
-                    <li><a href="">HOBBIES</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#work">EXPERIENCES</a></li>
+                    <li><a href="#hobbies">HOBBIES</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
                 <div class="menu-btn">
                     <i class="fas fa-bars"></i>
@@ -43,7 +46,7 @@
                 <div class="text-1">Hello!! My name is</div>
                 <div class="text-2">BIPUL PANTHI</div>
                 <div class="text-3">And I'm a <span>Learner</span></div>
-                <a href="#">Hire me!!!</a>
+                <a href="#contact">Hire me!!!</a>
 
             </div>
         </div>
@@ -68,35 +71,161 @@
     </section>
     <p></p>
     <script src="js/script.js"></script>
-    <!-- <div class ="text-box">
-                <h1>Yo wassup mate</h1>
-                <p>Its me Bipul Panthi.</p>
 
-                <a href="" class="hero-btn">Visit here to know more</a>
-            </div>
-        <section class ="about">
-            <h1>Who am I?</h1>
-            <div class="row">
-                <div class="intro">
-                    <h3>Introduction</h3>
-                    <p> Hello! It's me Bipul Panthi, an enthusiastic and credentialed student interested in robotics, software development and web-app development. I am currently studying mechanical engineering in Tokyo Institute of Technology.</p>
-                    <p>Currently based on Tokyo,Japan.</p>
+    <!-- Skills section starts from here -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <img src="images/skills.jpg">
                 </div>
-                <div class="sidephoto">
-                    <img src="drum.jpg">
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line html">
+
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line python">
+
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MATLAB</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line matlab">
+
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line c">
+
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Flutter</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line flutter">
+
+                        </div>
+                    </div>
 
                 </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- work experiences till date -->
+    <section class="work" id="work">
+        <div class="class max-width">
+            <h2 class="title">Experiences</h2>
+            <div class="work-content">
+                <h1>1. Part Time Translator <a href="https://www.terilogy.com"><span>Terilogy Services</span></a></h1>
+                <h2>(Jan 2021 - July 2021)</h2>
+                <p>Experience working as a part time interpreter in this company. Interpretation in between Japanese-English-Nepali languages. </p>
+
+            </div>
+            <div class="work-content">
+                <h1>2. Part Time C/C++ Engineer <a href="https://enaspiration.com"><span>Enaspiration Inc.</span></a></h1>
+                <h2>(July 2021 - present)</h2>
+                <p>Experience working as a part time developer with the micro controllers such as Arduino, STMicroelectronics and ESP-32 for the smart lock company. Experiences of developing and editing the firmware required for card detection door unlock
+                    systems. Besides these, I also worked on html and css for the browser controls of the smart lock devices.
+                </p>
+
+            </div>
+            <div class="work-content">
+                <h1>3. Volunteer e-Sports Team Manager / Head of Operations <a href="https://trainedtokill.com"><span>T2K Esports</span></a></h1>
+                <h2>(February 2020 - present)</h2>
+                <p>Experiences working as an e-sports team manager and head of operations. Managing the sponsors, team performances, team rosters, handling the social media etc. are my major responsibilities.
+                </p>
+
             </div>
 
-        </section> -->
+        </div>
+
+    </section>
+
+    <!-- hobbies section starts here -->
+    <section class="hobbies" id="hobbies">
+        <div class="max-width">
+            <h2 class="title">My Hobbies</h2>
+            <div class="hobbies-content">
+                <div class="column left">
+                    <img src="images/hobbies.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="btn">
+                        <div class="hero-btn">Listening to music</div>
+                    </div>
+                    <div class="btn">
+                        <div class="hero-btn">Playing Drums</div>
+                    </div>
+                    <div class="btn">
+                        <div class="hero-btn">Cycling</div>
+                    </div>
+                    <div class="btn">
+                        <div class="hero-btn">Playing Games</div>
+                    </div>
+                    <div class="btn">
+                        <div class="hero-btn">Live Streaming in YouTube</div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact me section begins here -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Get connected</h2>
+            <p></p>
+            <div class="medias">
+                <a href="https://www.linkedin.com/in/bipul-panthi-102453208/"><img src="images/linkedin.png"></a>
+                <a href="https://github.com/sakkigoni"><img src="images/github.png"></a>
+                <a href="https://www.facebook.com/deshbhaktabipul/"><img src="images/fb.png"></a>
+                <a href="https://www.instagram.com/sakkigoni_._/"><img src="images/insta.png"></a>
+                <a href="mailto:panthibipul@gmail.com"><img src="images/gmail.png"></a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- footer section here -->
     <div class="footer">
         <div class="footercontent">
             <div class="footer-section about"></div>
             <div class="footer-section links"></div>
             <div class="footer-section contact-form"></div>
         </div>
-        <h1>Website under construction..........</h1>
-        <h2>will be available soon :( </h2>
+        <h4>This is not fully designed website. The editing is going on daily and I will try my best to bring it in best form.</h4>
         <div class="footer-bottom">
             &copy; Designed by Bipul Panthi : sakkigoni
         </div>

@@ -80,6 +80,7 @@
     font-size: 30px;
     cursor: pointer;
     position: relative;
+    display: none;
 }
 
 
@@ -319,6 +320,304 @@ section {
 }
 
 
+/* skills section starts here */
+
+.skills {
+    font-family: 'Poppins', sans-serif;
+    background: #fff3f3;
+}
+
+.skills .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skills .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.skills .title::after {
+    content: "What I know?";
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff3f3;
+    transform: translateX(-50%);
+}
+
+.skills .skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .left {
+    width: 40%;
+}
+
+.skills .skills-content .left img {
+    width: 500px;
+    object-fit: cover;
+}
+
+.skills .skills-content .right {
+    align-items: right;
+    width: 55%;
+}
+
+.skills .skills-content .right .bars {
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right .span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skills-content .right .line {
+    height: 5px;
+    width: 100%;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.skills .skills-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+.skills .skills-content .right .html::before {
+    width: 80%;
+}
+
+.skills .skills-content .right .css::before {
+    width: 40%;
+}
+
+.skills .skills-content .right .python::before {
+    width: 80%;
+}
+
+.skills .skills-content .right .matlab::before {
+    width: 40%;
+}
+
+.skills .skills-content .right .c::before {
+    width: 50%;
+}
+
+.skills .skills-content .right .flutter::before {
+    width: 60%;
+}
+
+
+/* work experience */
+
+.work {
+    background: linear-gradient(to right, #000428, #920000);
+    font-family: 'Poppins', sans-serif;
+}
+
+.work .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.work .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    /* background: #fff; */
+    transform: translateX(-50%);
+}
+
+.work .title::after {
+    content: "Where did I work?";
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: transparent;
+    transform: translateX(-50%);
+}
+
+.work .work-content {
+    position: relative;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+.work .work-content h1 {
+    font-size: 24px;
+}
+
+.work .work-content span {
+    align-items: right;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid greenyellow;
+    padding: 10px 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.work .work-content span:hover {
+    border: 1px solid #f44336;
+    background: #2ce414;
+    transition: 1s;
+}
+
+.work .work-content h2 {
+    font-size: 14px;
+}
+
+.work .work-content p {
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+
+/* hobbies section */
+
+section {
+    padding: 100px 0;
+}
+
+.hobbies {
+    background: #ffafbd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hobbies .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+}
+
+.hobbies .hobbies-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hobbies .hobbies-content .left {
+    width: 55%;
+}
+
+.hobbies .hobbies-content .left img {
+    width: 600px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.hobbies .hobbies-content .right {
+    width: 45%;
+}
+
+.hobbies .hobbies-content .right .btn {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #f44336;
+    background: #2ce414;
+    transition: 1s;
+}
+
+
+/* contact section  */
+
+.contact {
+    background: white;
+}
+
+.contact .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.contact .medias {
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.contact .medias img {
+    padding-left: 40px;
+    width: 120px;
+}
+
+
 /* .menu{
     position: fixed;
     width: 100%;
@@ -371,24 +670,6 @@ section {
 .text-box p {
     margin: 10 px 0 40 px;
     font-size: 14px;
-}
-
-.hero-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-
-.hero-btn:hover {
-    border: 1px solid #f44336;
-    background: #2ce414;
-    transition: 1s;
 }
 
 nav .fa {
@@ -489,14 +770,11 @@ p {
     position: relative;
 }
 
-.footer h1 {
+.footer h4 {
+    padding-top: 40px;
+    font-size: 18px;
     text-align: center;
-    color: crimson;
-}
-
-.footer h2 {
-    text-align: center;
-    color: crimson;
+    color: white;
 }
 
 .footer .footer-content {
