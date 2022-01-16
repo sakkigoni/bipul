@@ -25,7 +25,7 @@
 
 .navbar.sticky {
     padding: 15px;
-    background: crimson;
+    background: #4169E1;
 }
 
 .navbar .max-width {
@@ -41,7 +41,7 @@
 }
 
 .navbar .logo a span {
-    color: crimson;
+    color: #4169E1;
     transition: all 0.3s ease;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .navbar .menu li a:hover {
-    color: crimson;
+    color: #4169E1;
     transition: all 0.3s ease;
 }
 
@@ -118,19 +118,19 @@
 }
 
 .home .home-content .text-3 span {
-    color: crimson;
+    color: #4169E1;
     font-weight: 500;
 }
 
 .home .home-content a {
     display: inline-block;
-    background: crimson;
+    background: #4169E1;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #4169E1;
     transition: all 0.3 ease;
 }
 
@@ -294,7 +294,7 @@ section {
 }
 
 .about .about-content .right .text span {
-    color: crimson;
+    color: #4169E1;
 }
 
 .about .about-content .right p {
@@ -303,19 +303,19 @@ section {
 
 .about .about-content .right a {
     display: inline-block;
-    background: crimson;
+    background: #4169E1;
     color: #fff;
     font-size: 25px;
     font-weight: 600;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #4169E1;
     transition: all 0.3 ease;
 }
 
 .about .about-content .right a:hover {
-    color: crimson;
+    color: #4169E1;
     background: none;
 }
 
@@ -496,7 +496,7 @@ section {
     text-align: center;
     display: inline-block;
     color: #fff;
-    border: 1px solid greenyellow;
+    border: 1px solid #4169E1#4169E1;
     padding: 10px 20px;
     background: transparent;
     cursor: pointer;
@@ -621,7 +621,7 @@ section {
 /* .menu{
     position: fixed;
     width: 100%;
-    background:crimson;
+    background:#4169E1;
     flex:1;
     text-align:center;
 
@@ -764,8 +764,8 @@ p {
 /*footer*/
 
 .footer {
-    background: linear-gradient(to right, #000428, #004e92);
-    color: green;
+    background: #262626;
+    color: #4169E1;
     height: 200px;
     position: relative;
 }
@@ -774,16 +774,16 @@ p {
     padding-top: 40px;
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: #9e9e9e;
 }
 
 .footer .footer-content {
-    border: 1px solid red;
+    border: 1px solid #4169E1;
 }
 
 .footer .footer-bottom {
-    background: linear-gradient(to right, #000428, #004e92);
-    color: #fff;
+    background: #262626;
+    color: #9e9e9e;
     height: 50px;
     width: 100%;
     text-align: center;

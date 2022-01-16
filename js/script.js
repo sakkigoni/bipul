@@ -13,3 +13,17 @@ $(document).ready(function() {
         $('.menu-btn i').toggleClass("active");
     })
 });
+
+//typing animation script
+var typed = new Typed(".typing", {
+    strings: ["a Learner", "a Student", "a Youtuber", "an e-Sports Manager", "an Engineer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+var typed = new Typed(".typing1", {
+    strings: ["a Learner", "a Student", "a Youtuber", "an e-Sports Manager", "an Engineer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
